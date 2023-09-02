@@ -1,0 +1,8 @@
+.container {
+  display: flex; /* or inline-flex */
+}
+
+.header-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
