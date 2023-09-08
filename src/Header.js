@@ -3,10 +3,10 @@ import logo from './logo.png';
 
 function Header() {
     return (
-      <div>
-        <img src={logo} className="header-logo" alt="logo" />
-        <p>Automocion SEM Garlo</p>
-      </div>
+        <div>
+            <img src={logo} className="header-logo" alt="logo" />
+            <p>Stay Strong</p>
+        </div>
     );
   }
 
