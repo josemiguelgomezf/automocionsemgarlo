@@ -1,17 +1,58 @@
-div {
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+#header {
   display: flex; /* or inline-flex */
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
   align-self: flex-start;
-  align-items: center
+  align-items: center;
 }
 
-img {
-  height: 40vmin;
-  pointer-events: none;
+#header-pack-logo {
+  width: 33%;
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: flex-start;
+  align-items: center;
+}
+
+#header-menu {
+  width: 50%;
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#header-logo {
+  height: 50vmin;
+  pointer-events: none
 }
 
 p {
-  font: 150% sans serif;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#header-title {
+  font-size: 200%;
+}
+
+#header-menu p {
+}
+
+#header-menu img {
+  height: 15vmin;
+}
+
+#header-menu p a {
+  text-decoration: none
+}
+
+#header-menu button {
+  height: 10%;
+  font-family: 'Roboto Condensed', sans-serif;
 }
