@@ -1,8 +1,17 @@
-.container {
+div {
   display: flex; /* or inline-flex */
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-self: flex-start;
+  align-items: center
 }
 
-.header-logo {
-  height: 20vmin;
+img {
+  height: 40vmin;
   pointer-events: none;
+}
+
+p {
+  font: 150% sans serif;
 }
