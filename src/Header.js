@@ -10,7 +10,7 @@ function Header() {
         </div>
         <div id="header-menu">
             <p><a href="carrusel">Home</a></p>
-            <p><a href="carrusel">About</a></p>
+            <p><a href="aboutus">About Us</a></p>
             <p><a href="carrusel">Services</a></p>
             <p><a href="carrusel">Contact</a></p>
             <button>¡Presupuesto!</button>

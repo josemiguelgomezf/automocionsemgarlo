@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+#services {
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  background-color: whitesmoke;
+  width: 100%;
+}
+
+#services-content{
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
+}
+
+#services p{
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: justify;
+}
+
+#services-img{
+  padding: 2%;
+  width: 30%;
+}
+
+#services-title{
+  font-size: 6vmin;
+}
+

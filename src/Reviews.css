@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+#reviews {
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-self: flex-start;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+}
+
+#reviews-content {
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-self: flex-start;
+  align-items: center;
+  background-color: black;
+  width: 30%;
+}
+
+#reviews-content-text{
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: flex-start;
+  align-items: center;
+  background-color: black;
+  width: 50%;
+}
+
+#reviews p{
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  width: 100%;
+}
+
+#reviews-img{
+  padding: 4%;
+  width: 20vmin;
+}
+
