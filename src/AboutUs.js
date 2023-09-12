@@ -1,5 +1,4 @@
 import './AboutUs.css';
-import logo from './logo.png';
 
 function AboutUs() {
 

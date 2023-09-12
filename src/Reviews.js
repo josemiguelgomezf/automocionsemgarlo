@@ -3,14 +3,14 @@ import './Reviews.css';
 const users = [{
     alt: 'Hedy Lamarr',
     comment: '"Muy buen taller, servicio profesional y serio. Muy buen taller, servicio profesional y serio."',
-    mark: '5',
+    mark: 4,
     imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
     imageSize: 90
   },
   {
     alt: 'Hedy Lamarr',
     comment: '"Me arreglaron el coche en tiempo récord, increíble. Me arreglaron el coche en tiempo récord, increíble."',
-    mark: '5',
+    mark: 5,
     imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
     imageSize: 90
   }];
@@ -25,12 +25,14 @@ function Reviews() {
   return (
   <div id="reviews">
     <div id="reviews-content">
-      <img id="reviews-img" src={user.imageUrl} alt={'Photo of ' + user.alt}/>
-        <div id="reviews-content-text">
-          <p id="reviews-alt">{user.alt}</p>
-          <p id="reviews-comment">{user.comment}</p>
-          <p id="reviews-mark">{user.mark}</p>
-        </div>
+      <div id="reviews-content-img">
+        <img id="reviews-img" src={user.imageUrl} alt={'Photo of ' + user.alt}/>
+        <p id="reviews-alt">{user.alt}</p>
+      </div>
+      <div id="reviews-content-text">
+        <p id="reviews-comment">{user.comment}</p>
+        <h1 id="reviews-stars">{"✰".repeat(user.mark)}</h1>
+      </div>
     </div>
   </div>
   );

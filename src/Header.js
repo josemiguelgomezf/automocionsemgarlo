@@ -6,13 +6,13 @@ function Header() {
     <div id="header">
         <div id="header-pack-logo">
             <img src={logo} id="header-logo" alt="logo" />
-            <p id="header-title">Taller Hnos. SEM Garlo</p>
+            <h2 id="header-title">Taller Hnos. SEM Garlo</h2>
         </div>
         <div id="header-menu">
-            <p><a href="carrusel">Home</a></p>
-            <p><a href="aboutus">About Us</a></p>
-            <p><a href="carrusel">Services</a></p>
-            <p><a href="carrusel">Contact</a></p>
+            <a href="carrusel">Home</a>
+            <a href="aboutus">About Us</a>
+            <a href="carrusel">Services</a>
+            <a href="carrusel">Contact</a>
             <button>¡Presupuesto!</button>
             <button>¡Descuentos!</button>
             <img src="https://cdn-icons-png.flaticon.com/512/3059/3059561.png" className="header-icon" alt="call" />

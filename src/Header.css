@@ -37,6 +37,14 @@ p {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+a {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 #header-title {
   font-size: 200%;
 }
@@ -45,7 +53,7 @@ p {
   height: 5vmin;
 }
 
-#header-menu p a {
+#header-menu a {
   text-decoration: none;
   color: black
 }

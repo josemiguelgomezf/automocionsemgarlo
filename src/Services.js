@@ -1,5 +1,4 @@
 import './Services.css';
-import logo from './logo.png';
 
 function services() {
 
