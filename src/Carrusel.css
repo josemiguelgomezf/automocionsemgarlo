@@ -1,56 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
-#header {
+#carrusel {
   display: flex; /* or inline-flex */
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
   align-self: flex-start;
   align-items: center;
+  background-color: black;
 }
 
-#header-pack-logo {
-  width: 33%;
+#carrusel-slider {
   display: flex; /* or inline-flex */
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-self: flex-start;
   align-items: center;
-}
-
-#header-menu {
   width: 50%;
-  display: flex; /* or inline-flex */
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-  align-items: center;
 }
 
-#header-logo {
-  height: 15vmin;
-  pointer-events: none
-}
-
-p {
+#carrusel-alt{
+  color: white;
   font-family: 'Roboto Condensed', sans-serif;
+  width: 100%;
 }
 
-#header-title {
-  font-size: 200%;
+#carrusel-img {
+  padding: 2%;
+  width: 80%;
 }
 
-#header-menu img {
-  height: 5vmin;
-}
-
-#header-menu p a {
-  text-decoration: none;
-  color: black
-}
-
-#header-menu button {
+#carrusel button {
   height: 10%;
   font-family: 'Roboto Condensed', sans-serif;
   background-color: white;
