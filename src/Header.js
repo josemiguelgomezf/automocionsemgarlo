@@ -3,7 +3,7 @@ import logo from './logo.png';
 
 function Header() {
     return (
-    <div id="header">
+     <div id="header">
         <div id="header-pack-logo">
             <img src={logo} id="header-logo" alt="logo" />
             <h2 id="header-title">Taller Hnos. SEM Garlo</h2>
