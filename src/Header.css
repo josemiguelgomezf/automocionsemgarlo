@@ -76,7 +76,7 @@ p {
 }
 
 a:hover {
-  background-color: whitesmoke;
+  background-color: grey;
 }
 
 #header-menu button {
@@ -89,5 +89,5 @@ a:hover {
 }
 
 #header-menu button:hover  {
-  background-color: whitesmoke;
+  background-color: grey;
 }
