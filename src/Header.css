@@ -1,5 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
+@keyframes title-zoom {
+  from {
+    font-size: 50%;
+  }
+
+  to {
+
+  }
+}
+
+@keyframes button-shake {
+  from {
+    transform: rotate(2deg);
+  }
+
+  to {
+    transform: rotate(-2deg);
+  }
+}
+
+
 #header {
   display: flex; /* or inline-flex */
   flex-direction: row;
@@ -37,15 +58,10 @@ p {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-a {
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
-h2 {
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
 #header-title {
+  font-family: 'Roboto Condensed', sans-serif;
+  animation-duration: 5s;
+  animation-name: title-zoom;
   font-size: 200%;
 }
 
@@ -54,12 +70,24 @@ h2 {
 }
 
 #header-menu a {
+  font-family: 'Roboto Condensed', sans-serif;
   text-decoration: none;
-  color: black
+  color: black;
+}
+
+a:hover {
+  background-color: whitesmoke;
 }
 
 #header-menu button {
   height: 10%;
   font-family: 'Roboto Condensed', sans-serif;
   background-color: white;
+  animation-duration: 3s;
+  animation-iteration-count: 5;
+  animation-name: button-shake;
+}
+
+#header-menu button:hover  {
+  background-color: whitesmoke;
 }
